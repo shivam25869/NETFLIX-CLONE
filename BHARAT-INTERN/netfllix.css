@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url('IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: 1580px 792px;
+}
+.img img{
+    width: 17%;
+}
+nav  {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .buttons{
+    display: flex;
+}
+.buttons .eng{
+    background-color:rgba(0, 0, 0, 0.678);
+    width:110px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border: 4px solid gray;
+    border-radius: 20px ;
+}
+.buttons .sign{
+    background-color:rgba(255, 0, 0, 0.64);
+    width:110px;
+    height: 40px;
+    margin-top: 30px;
+    color:white;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.buttons button:hover{
+    background-color:orangered;
+}
+.txt1{
+    text-align: center;
+}
+.txt1 h1{
+    font-size: 60px;
+}
+.txt1 h3{
+    font-size: 30px;
+}
+.input input{
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.input button{
+    font-size: 30px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 4px;
+    padding: 66px;
+    border-top: 4px solid gray;
+}
+.first img{
+    width: 80%;
+    float: left;
+}
+.txt4 h1{
+    border-top: 4px solid gray;
+}
+.txt4{
+    text-align: center;
+}
+.btn button{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 29%;
+}
+.btn button:hover{
+    background-color: red;
+}
+.txt5{
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+    display: flex;
+}
+.inputt{
+    display: flex;
+    justify-content: center;
+}
+.inputt input{
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.inputt button{
+    font-size: 30px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+footer{
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer p:hover{
+    color: red;
+}
